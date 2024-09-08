@@ -35,7 +35,20 @@ i.e.,
 
 3. **Decision Tree**
 
-()
+(used for both classification and regression tasks)  
+(it creates tree like structure which helps us to find out the insights)  
+(it generally uses divide_and_conquer strategy.)  
 
 [decisionTree.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/decisionTree.ipynb)  
-[iris_tree.pdf](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/iris_tree.pdf)
+[iris_tree.pdf](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/iris_tree.pdf)  
+
+## Day 03  
+
+4. **Random Forest**  
+
+(This is also used for both classification and regression tasks.)  
+(it is known for their ability to handle large datasets while providing accurate predictions.)  
+(it is a method which combines multiple decision tree to make prediction.)  
+(each single decision tree is built using random subset of trainig data.)  
+
+[RandomForest.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/RandomForest.ipynb)
