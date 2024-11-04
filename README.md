@@ -90,4 +90,22 @@ types / Algorithms are:
 
 4. ` Recalculate centroids`: For each cluster, calculate the new centroid by finding the average of all the data points in the cluster.
 
-5. `Repeat`: Reassign data points to the nearest centroid and recalculate the centroids.
+5. `Repeat`: Reassign data points to the nearest centroid and recalculate the centroids.  
+
+## Day 06  
+
+2. **Hierarchical Clustering**  
+
+- (It is a method that groups similar data points together based on their similarity or dissimilarity.)    
+- (It results in hierarchical structure.)  
+- (Can be visualized as a dendrogram(shows order in which cluster were merged).)  
+
+*Advantages*  
+ 1. it doesn't require specifying the number of clusters in advance, allowing for an automatic determination based on the data. 
+ 2. it provides an intuitive visualization through dendrograms, enabling us to explore different clustering possibilities.
+ 3. it captures hierarchical relationships which can reveal nested structures within the data.  
+
+ *Limitations*  
+ 1. expensive, particularly for large datasets due to the need to compute pairwise distances.  
+ 2. It can also be sensitive to noise and outliers affecting the clustering results. 
+ 3. dealing with categorical or mixed data types can be challenging in hierarchical clustering.
