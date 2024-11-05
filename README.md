@@ -64,7 +64,7 @@ types are:
 - (hyperplane is determined by the SVM , which are the data points closest to the decision boundry. )  
 - (SVM's are generally adaptible coz they can handle both binary classification(yes/no) and regression(numerical values).)
 
-[svm.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/svm.ipynb)  
+    [svm.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/svm.ipynb)  
 
 ## Day 05
 
@@ -92,6 +92,8 @@ types / Algorithms are:
 
 5. `Repeat`: Reassign data points to the nearest centroid and recalculate the centroids.  
 
+    [Kmeans.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/Kmeans.ipynb)  
+
 ## Day 06  
 
 2. **Hierarchical Clustering**  
@@ -108,4 +110,12 @@ types / Algorithms are:
  *Limitations*  
  1. expensive, particularly for large datasets due to the need to compute pairwise distances.  
  2. It can also be sensitive to noise and outliers affecting the clustering results. 
- 3. dealing with categorical or mixed data types can be challenging in hierarchical clustering.
+ 3. dealing with categorical or mixed data types can be challenging in hierarchical clustering.  
+
+    [hierarchical.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/hierarchical.ipynb)  
+
+
+3. **PCA (Principal Component Analysis)**  
+
+- ( technique used to reduce the dimensionality of a dataset whilst retaining as much of the original information as possible.)  
+- (This method is excellent for simplifying data while keeping its essential patterns, making it easier to analyze and visualize.)
