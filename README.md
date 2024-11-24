@@ -7,12 +7,14 @@ Exploring the basics of Tensorflow and its API usage in python
  -  teaching a computer using examples.  
  - a computer is shown many labeled examples, and it learns to make predictions or decisions based on that data.  
 
-types are:
-- Linear Regression ,
-- Logistic Regression,
-- Decision Trees ,
-- Random Forests ,
-- Support Vector Machines(SVM's)
+<details> <summary> <b><b>Types</b></b> </summary>  
+
+    1. Linear Regression  
+    2. Logistic Regression  
+    3. Decision Trees  
+    4. Random Forests  
+    5. Support Vector Machines(SVM's)  
+</details>  
 
 1. **Linear Regression** 
 
@@ -71,11 +73,12 @@ types are:
 # Exploring **UNSUPERVISED LEARNING**  
 - letting a computer figure things out on its own without any labeled examples.  
 - the computer looks at data and tries to find patterns or groupings on its own.  
+<details><summary> <b><b>Types</b></b> </summary> 
 
-types / Algorithms are: 
- - K- means clustering  
- - hierarchical clusturing  
- - Principal component Analysis  
+    1. K- means clustering  
+    2.  hierarchical clusturing  
+    3. Principal component Analysis  
+</details>  
 
 1. **K-means clustering**  
 
@@ -102,20 +105,62 @@ types / Algorithms are:
 - (It results in hierarchical structure.)  
 - (Can be visualized as a dendrogram(shows order in which cluster were merged).)  
 
-*Advantages*  
+<details>
+<summary> Advantages </summary>  
+
  1. it doesn't require specifying the number of clusters in advance, allowing for an automatic determination based on the data. 
- 2. it provides an intuitive visualization through dendrograms, enabling us to explore different clustering possibilities.
+ 2. it provides an intuitive visualization through dendrograms, enabling us to explore different clustering possibilities.  
  3. it captures hierarchical relationships which can reveal nested structures within the data.  
+</details>
 
- *Limitations*  
- 1. expensive, particularly for large datasets due to the need to compute pairwise distances.  
- 2. It can also be sensitive to noise and outliers affecting the clustering results. 
- 3. dealing with categorical or mixed data types can be challenging in hierarchical clustering.  
+ <details><summary> Limitations </summary>  
+ 
+1. expensive, particularly for large datasets due to the need to compute pairwise distances.  
+2. It can also be sensitive to noise and outliers affecting the clustering results. 
+3. dealing with categorical or mixed data types can be challenging in hierarchical clustering.  
+</details>  
 
-    [hierarchical.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/hierarchical.ipynb)  
+[hierarchical.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/hierarchical.ipynb)  
 
 
 3. **PCA (Principal Component Analysis)**  
 
 - ( technique used to reduce the dimensionality of a dataset whilst retaining as much of the original information as possible.)  
-- (This method is excellent for simplifying data while keeping its essential patterns, making it easier to analyze and visualize.)
+- (This method is excellent for simplifying data while keeping its essential patterns, making it easier to analyze and visualize.)  
+
+## Day 07
+
+# Exploring **DL NEURAL NETWORKS**  
+
+- Neural networks are inspired by the structure and function of the **human brain**, which consists of billions of neurons that communicate with each other through electrical signals.  
+- designed to mimic this brain-like behavior to solve complex problems.  
+- composed of layers of artificial neurons (units or nodes).  
+        -  first layer is called the **`input layer`**, which receives the    data that we want to analyze or manipulate.  
+        -  The last layer is called the **`output layer`**, which produces the result or prediction that we are interested in.  
+        -  In between the input and output layers, there can be one or more **`hidden layers`** which perform intermediate computations and transformations on the data.  
+  
+
+
+  ![Deep Neural Network](https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/cdp/cf/ul/g/3a/b8/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork.png)  
+<details><summary> <b>Types</b> </summary>
+    
+    1. Feedforward Neural Networks (FNN)  
+    2. Convolutional Neural Networks (CNN)  
+    3. Recurrent Neural Networks (RNN)  
+</details>  
+
+______________
+**1. FNN** 
+
+- processes data in `one direction`—from input to output—without looping back.
+- connections between the nodes do not form cycles.
+- The network consists of an input layer, one or more hidden layers, and an output layer. 
+  
+  [FNN.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/FNN.ipynb)  
+  [train.csv](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/train.csv) (dataset)
+
+
+  ![FNN](https://upload.wikimedia.org/wikipedia/commons/5/54/Feed_forward_neural_net.gif)  
+
+  
+  
