@@ -138,8 +138,7 @@ Exploring the basics of Tensorflow and its API usage in python
         -  first layer is called the **`input layer`**, which receives the    data that we want to analyze or manipulate.  
         -  The last layer is called the **`output layer`**, which produces the result or prediction that we are interested in.  
         -  In between the input and output layers, there can be one or more **`hidden layers`** which perform intermediate computations and transformations on the data.  
-  
-
+<br>  
 
   ![Deep Neural Network](https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/cdp/cf/ul/g/3a/b8/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork.png)  
 <details><summary> <b>Types</b> </summary>
@@ -158,9 +157,20 @@ ______________
   
   [FNN.ipynb](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/FNN.ipynb)  
   [train.csv](https://github.com/sachinkhote/Python-and-Tensorflow-for-ML/blob/main/train.csv) (dataset)
-
+<br><br>
 
   ![FNN](https://upload.wikimedia.org/wikipedia/commons/5/54/Feed_forward_neural_net.gif)  
+<br>  
+  
+## Day 08
+**2. CNN**  
 
-  
-  
+- designed to effectively process grid-like data, such as images.  
+- specifically designed to handle image data.  
+- 1. `<Convolutional Layer>` - this layer scans the image with small filters, these filters detect features such as edges, textures, or colors by looking at small sections of the image at a time.  
+    2. `<Pooling Layer>` - responsible for the reduction of the size(downsamples).It is responsible for the reduction of the size.  
+    3. `<Fully Connected Layer>` -  This is where the network makes sense of all the extracted features and makes a prediction. 
+    4. `<Output Layer>` - Finally, the output layer provides the final result.  
+<br><br><br>    
+
+  ![CNN](https://editor.analyticsvidhya.com/uploads/568241-4.png)
